@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{60873d4d-b9cb-4064-a810-cb0f0cacc270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{8f346c90-8246-436f-97ef-c51b13976ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Library">
+      <UniqueIdentifier>{eef2d8b8-9258-465c-ae37-5e12a810fb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Students">
+      <UniqueIdentifier>{1b1c5ab8-e344-4531-bf27-f6594b46e2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Doctors">
+      <UniqueIdentifier>{69772d8d-25ce-4098-92ff-e02c63e26638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Courses">
+      <UniqueIdentifier>{bb6cd1c2-74a0-41a1-8f42-4f671802dc3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EducationalSystemProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\BankSystemOOP\BankSystemOOP\clsDate.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BankSystemOOP\BankSystemOOP\clsUtil.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BankSystemOOP\BankSystemOOP\clsString.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BankSystemOOP\BankSystemOOP\clsInputValidation.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BankSystemOOP\BankSystemOOP\clsPerson.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDoctor.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCourses.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDoctorMainMenu.h">
+      <Filter>Header Files\Screens\Doctors</Filter>
+    </ClInclude>
+    <ClInclude Include="clsLoginPageScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowCoursesListDoctor.h">
+      <Filter>Header Files\Screens\Doctors</Filter>
+    </ClInclude>
+    <ClInclude Include="clsStudentMainMenueScreen.h">
+      <Filter>Header Files\Screens\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowRegisterInCourseScreen.h">
+      <Filter>Header Files\Screens\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMyCoursesListScreen.h">
+      <Filter>Header Files\Screens\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="clsGlobal.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCreateCourseScreen.h">
+      <Filter>Header Files\Screens\Doctors</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMyMath.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowCoursesDetails.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsStudent.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCommunicationScreen.h">
+      <Filter>Header Files\Screens\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="clsStudentRecivedEmailBoxScreen.h">
+      <Filter>Header Files\Screens\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="clsStudentSendedBoxScreen.h">
+      <Filter>Header Files\Screens\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowSendEmailScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
